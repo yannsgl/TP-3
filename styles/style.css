@@ -1,0 +1,194 @@
+body {
+	background: #1C1C1C;
+	color: #424242;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	display: grid;
+	grid-template-rows: auto 1fr;
+	min-height: 100vh;
+}
+
+main {
+	margin: 0 auto;
+}
+
+/* Titre */
+
+header{
+	display: flex;
+	justify-content: center;
+	background: #09c;
+}
+h1 {
+	font-size: 48px;
+	color: #fff;
+}
+
+h2 {
+	color: #eee;
+	margin-bottom: 16px;
+}
+
+h3 {
+	color: #f84;
+	margin: 8px 0;
+}
+
+/* Contenu principal */
+
+.resultat {
+	margin-top: 8px;
+	font-size: 24px;
+	border-radius: 8px;
+	color: #9cf;
+}
+
+.contenu {
+	margin: auto;
+}
+
+.contenu p {
+	margin: 0px;
+}
+
+.images {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.images div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.images p {
+	color :#0c9;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.images img {
+	margin: 4px;
+	border-radius: 8px;
+}
+
+/* Tableau */
+
+table {
+	margin: auto;
+}
+
+th, td {
+	border:#0c9 2px solid;
+	margin: 0;
+	padding: 4px;
+	color: #eee;
+	width: 128px;
+	border-radius: 8px;
+}
+
+th {
+	background-color: #424242;
+	color: #ddd; 
+}
+
+div.ligne {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+div.case {
+	display: inline-block;
+	border:#9cf 2px solid;
+	margin: 2px 2px 0 0;
+	padding: 4px;
+	color: #eee;
+	width: 100px;
+	text-align:center;
+	border-radius: 8px;
+}
+
+/* Formulaire */
+
+form {
+	margin: auto;
+	background-color: #ddd;
+	padding: 16px 32px;
+	border-radius: 8px;
+}
+
+.form_elt {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	margin-bottom: 16px;
+}
+
+input.texte {
+	display: block;
+	padding: 8px 16px;
+	/*margin: 8px 0 32px 0;*/
+	font-size: 22px;
+	border-radius: 4px;
+	border: none;
+	width: 256px;
+}
+
+label {
+	color: #424242;
+	font-weight: bold;
+	font-size: 24px;
+	margin-right: auto;
+}
+
+.ok {
+	border-radius: 8px;
+	text-align: center;
+	color: #fff;
+	background-color: #0c9;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 8px;
+	cursor: pointer;
+}
+
+/* Texte */
+
+.souligner {
+	text-decoration: underline;
+}
+
+.code {
+	font-weight: bold;
+	color: #B8DA40;
+}
+
+/* Mises en valeur */
+.reponse {
+	background: white;
+	color: #48c;
+	padding: 8px;
+	font-weight: bold;
+}
+
+.highlight {
+	color: #000;
+	background: #fe1;
+	padding: 8px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+img.highlight {
+	border: 5px solid yellow;
+}
+
+.erreur {
+	background: #ff8080;
+	border: 2px solid #c00 !important;
+	color: #000;
+	font-weight: bold;
+	padding: 8px;
+}
